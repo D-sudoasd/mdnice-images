@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/readme/hero.png" width="100%" alt="mdnice-images — Stable image assets for Markdown articles / 用于 Markdown 文章的稳定图片资源. Conceptual illustration / 概念插图。">
+</p>
+
 # mdnice-images
 
 **为 Markdown 与 mdnice 文章保存可直接引用的公开图片。**
