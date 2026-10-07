@@ -1,46 +1,22 @@
-<p align="center">
-  <img src="assets/readme/hero.png" width="100%" alt="mdnice-images — Stable image assets for Markdown articles / 用于 Markdown 文章的稳定图片资源. Conceptual illustration / 概念插图。">
-</p>
-
 # mdnice-images
 
-**Stable image assets for Markdown articles**
+**为 Markdown 与 mdnice 文章保存可直接引用的公开图片。**
 
-**用于 Markdown 文章的稳定图片资源**
+A public image repository for the maintainer’s synchrotron and diffraction columns. Browse the figures, copy a raw GitHub URL, and embed it in your article; there is no application to install.
 
-[Overview / 项目概览](#overview--项目概览) · [Start / 开始使用](#start--开始使用) · [Reference / 详细说明](#reference--详细说明)
+[图片目录](synchrotron-column/) · [Ti-662 原位衍射文章图包](synchrotron-column/barriobero_vila_2017_ti662_hexrd_column/) · [引用方法](#embed) · [复用范围](#scope-and-reuse)
 
-## Overview / 项目概览
+## 从一张真实资源开始
 
-Keep article covers, figure panels and source cards in a public asset tree that can be linked from mdnice and other Markdown publishing workflows.
+![文章图件：衍射环数据整理示意](synchrotron-column/01-diffraction-ring-data-sorting.png)
 
-在公开资源目录中保存文章封面、图版与来源卡片，供 mdnice 和其他 Markdown 发布流程引用。
-
-- **Article organization** — 按文章整理图片与关联素材。
-- **Stable links** — 使用明确文件名并保留已发布路径。
-- **Source-aware reuse** — 按各图件来源与许可决定复用方式。
-
-## Start / 开始使用
-
-Browse [synchrotron-column/](synchrotron-column/) and copy the raw URL of the selected image.
-
-浏览 `synchrotron-column/`，复制所选图片的原始文件链接并插入 Markdown。
+*这是仓库中的文章配图，作为资源示例展示；科学含义及来源以对应文章和图包记录为准。*
 
 ```markdown
-![Image description / 图片说明](https://raw.githubusercontent.com/D-sudoasd/mdnice-images/main/assets/readme/hero.png)
+![衍射环数据整理示意](https://raw.githubusercontent.com/D-sudoasd/mdnice-images/main/synchrotron-column/01-diffraction-ring-data-sorting.png)
 ```
 
-This repository hosts assets; it does not run an application. Keep published image paths stable.
-
-本仓库保存图片资源，无需运行应用；已发表文章引用的图片路径应保持稳定。
-
-*Cover: AI-generated conceptual illustration. 封面为 AI 生成的概念插图。*
-
-## Reference / 详细说明
-
-**Public image host for mdnice / WeChat copy-ready Markdown columns.**
-
-Not an application — a public asset tree so column posts can reference **stable GitHub raw URLs** when pasting into [mdnice](https://mdnice.com/) or WeChat editors.
+添加新资源时使用明确文件名；已被文章引用的路径应保持稳定。`main` 链接反映当前文件；需要固定历史版本时，用提交 SHA 替换 URL 中的 `main`。
 
 ## Layout
 
