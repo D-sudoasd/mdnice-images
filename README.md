@@ -10,6 +10,18 @@ A public image repository for the maintainer’s synchrotron and diffraction col
 
 [图片目录](synchrotron-column/) · [Ti-662 原位衍射文章图包](synchrotron-column/barriobero_vila_2017_ti662_hexrd_column/) · [引用方法](#embed) · [复用范围](#scope-and-reuse)
 
+## 原理示意 / Principle schematic
+
+<p align="center">
+  <img src="assets/readme/principle.png" width="100%" alt="Markdown 图片引用、raw URL 与版本固定 — conceptual schematic / 概念示意图">
+</p>
+
+*概念示意：文章中的 Markdown 图片引用连接到仓库 raw URL；main 对应当前文件，提交 SHA 可固定历史版本，复用须核对来源。图中资源为概念素材。*
+
+*Conceptual schematic: Markdown embeds an image through its repository raw URL; main reflects the current asset and a commit SHA pins a historical version. Verify provenance before reuse.*
+
+[查看完整示意图 / View full-size schematic](assets/readme/principle.png)
+
 ## 从一张真实资源开始
 
 ![文章图件：衍射环数据整理示意](synchrotron-column/01-diffraction-ring-data-sorting.png)
